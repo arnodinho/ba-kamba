@@ -1,0 +1,1 @@
+<textarea class="regular-text field" data-type="<?php echo esc_attr( $type ); ?>" data-id="<?php echo esc_attr( $id ); ?>" rows="6" name="<?php echo esc_attr( $name ); ?>"><?php echo wp_kses_post( $value ); ?></textarea>
